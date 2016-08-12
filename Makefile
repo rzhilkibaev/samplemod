@@ -19,5 +19,5 @@ create-bucket:
 publish:
 	aws s3api put-object \
 		--bucket ${s3_bucket} \
-		--key shmenkins-0.0.1-py2-none-any.zip \
+		--key lambda.zip \
 		--body dist/shmenkins-0.0.1-py2-none-any.whl
